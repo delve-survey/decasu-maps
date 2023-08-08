@@ -1,0 +1,14 @@
+--select 'https://decade.ncsa.illinois.edu/deca_archive/'||path||'/'||filename 
+--from file_archive_info 
+--where filename like 'D00651692%_TN%';
+
+select c.TILENAME, c.BAND, c.PFW_ATTEMPT_ID, 
+       g.CROSSRA0, g.RA_CENT, g.DEC_CENT, 
+       g.URAMIN, g.URAMAX, g.UDECMIN, g.UDECMAX
+from coaddtile_geom g, coadd c, proctag t
+where c.pfw_attempt_id = t.pfw_attempt_id
+and c.tilename = g.tilename
+and t.tag = 'DR3_1_1'
+and c.filetype = 'coadd'
+order by c.tilename, c.band;
+> dr3_1_1_coadd_tiles_and_geom.csv

@@ -1,0 +1,116 @@
+# This code was developed by Peter Ferguson, I added updates along the way to have it follow DELVE region boundaries 
+#first activate environment
+
+conda activate des20a
+
+#Then make sure you have added decasu to your python path 
+#probably in your .bashrc or setup.sh  have the following lines that will have to be changed for your username and software location  
+
+SOFTWARE=/home/s1/pferguso/software
+export PYTHONPATH=$SOFTWARE/decasu/decasu:$PYTHONPATH
+
+
+# these commands assume you are in base directory eg "/home/s1/pferguso/projects/delve/coverage_maps/example"
+# you will want to copy this directory to somewhere you have read/write access (a folder you make)
+# this can be done by executing cp -r /home/s1/pferguso/projects/delve/coverage_maps/example /path/you/want/to/copy/to
+
+# first step is to query the database
+# I ran the following query to get the ccd geometry info:
+select i.expnum, i.ccdnum, i.tilename, e.mjd_obs,
+       i.skyvara,i.skyvarb,
+       cast(i.band as VARCHAR(1)) as band,
+       i.skysigma,i.fwhm,i.exptime,i.airmass,i.skybrite,
+       i.rac1,i.rac2 ,i.rac3,i.rac4,
+       i.decc1, i.decc2,i.decc3,i.decc4,
+       i.crpix1,i.crpix2,
+       i.crval1,i.crval2,i.cunit1,i.cunit2,i.cd1_1,i.cd1_2,
+       i.cd2_1,i.cd2_2,i.pv1_0,i.pv1_1,i.pv1_2,i.pv1_3,
+       i.pv1_4,i.pv1_5,i.pv1_6,i.pv1_7,i.pv1_8,i.pv1_9,i.pv1_10,
+       i.pv2_0,i.pv2_1,i.pv2_2,i.pv2_3,
+       i.pv2_4,i.pv2_5,i.pv2_6,i.pv2_7,i.pv2_8,i.pv2_9,i.pv2_10,
+       2048 as naxis1, 4096 as naxis2,
+       -- Zeropoints
+       0 as mag_zero
+from image i, proctag p, exposure e
+where p.tag in ('DR3_1_1')
+and i.pfw_attempt_id=p.pfw_attempt_id
+--and i.filetype='fullcat'
+and i.expnum=e.expnum
+ORDER BY expnum;
+ > dr3_1_1_query.csv
+
+# with the following call:
+
+easyaccess -s delve -l dr3_1_1_query.sql
+
+# then we need to obtain the coadd tile geometry info using the following query:
+select c.TILENAME, CAST(c.BAND as VARCHAR(1)) as BAND, c.PFW_ATTEMPT_ID,
+       CAST(g.CROSSRA0 as VARCHAR(1)) as CROSSRA0,
+       g.RA_CENT, g.DEC_CENT,
+       g.URAMIN, g.URAMAX, g.UDECMIN, g.UDECMAX
+from coaddtile_geom g, coadd c, proctag t
+where c.pfw_attempt_id = t.pfw_attempt_id
+and c.tilename = g.tilename
+and t.tag = 'DR3_1_1'
+and c.filetype = 'coadd'
+order by c.tilename, c.band;
+> dr3_1_1_coadd_tiles_and_geom.csv
+
+# using the following call:
+
+easyaccess -s delve -l coadd_tiles_and_geom.sql
+
+# on most occassions, the csv files get output as two csv files since they're so large. Run the following
+# call to combine them:
+
+python code/combine_csv.py -c query/dr3_1_1_query_00001.csv, query/dr3_1_1_query_00002.csv
+
+# then convert csv 2 fits
+python code/csv2fits.py data/dr3_1_1_query.csv
+
+
+#then to run decasu 
+# In /code/  I have a file called decasu_mapper.py that is an argparse wrapper for decasu.MultiTileMapper
+# So, to create the g-band maps I just call
+python code/decasu_mapper.py -c DR_311_config.yaml -g ./data/coadd_tiles_and_geom.fits -i ./data/dr3_1_1_query.fits -o ./hsp -b g -n 12
+
+# the config.yaml specifies the maps we create, and importantly the nside_run  the nside 
+# to run the mapper at (by default this is 8, but that crashes for DR2, so I set it to 32)
+
+DR_311_config.yaml: 
+outbase: 'delve_dr3_1_1'
+nside: 16384
+nside_run: 32
+map_types:
+  coverage: ['sum']
+  nexp: ['sum']
+  exptime: ['sum']
+  airmass: ['wmean']
+  dcr_dra: ['wmean']
+  dcr_ddec: ['wmean']
+  dcr_e1: ['wmean']
+  dcr_e2: ['wmean']
+  maglim: ['wmean']
+  skysigma: ['wmean', 'wmean-scaled']
+  skybrite: ['wmean', 'wmean-scaled']
+  fwhm: ['wmean']
+
+TRIED the following STILL CRASHED:
+I am running 1 band at a time because the parallelization isnt great for the 
+final step and the HealpixConsolidator  could use more memory than we have. 
+One band at a time lets me set the njobs larger for the initial stage, 
+then doesn't overwhelm the ram in the consolidation stage.
+With error:
+
+OSError: FITSIO status = 104: could not open the named file
+failed to find or open the following file: (ffopen)
+./hsp/32_10081/delve_dr3_1_1_32_10081_g_nexp_sum.hs
+
+Where the named file exists, the workaround I used was to run the final consolidation 
+step in a jupyter notebook (code/consolidate_manually.ipynb), need to ask eli about this. 
+I think it is tied to the number of files in the map_list
+
+NOTE TO FUTURE USER:
+Even after working with this code, I still don't entirely know why healsparse struggles with concatenating a large number of maps. The notebook currently contains code which will create intermediate maps, combining sets of ~3000 maps into one map and will then combine those into a complete map.
+
+

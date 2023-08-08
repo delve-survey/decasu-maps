@@ -1,0 +1,8 @@
+
+declare -a StringArray=("r"
+			"i"
+			"z")
+for val in ${StringArray[@]}; do
+	echo starting $val
+	python code/decasu_mapper.py -c DR_312_config.yaml -i ./data/dr3_1_1_query.fits -o ./hsp -b $val -n 12 > logs/dr3_1_1_$val.log 2>&1
+done

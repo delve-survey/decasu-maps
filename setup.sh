@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+conda activate des20a
+SOFTWARE=/home/s1/kherron/software
+export PYTHONPATH=$SOFTWARE/decasu:$PYTHONPATH
+export PYTHONPATH=$SOFTWARE/skymap:$PYTHONPATH

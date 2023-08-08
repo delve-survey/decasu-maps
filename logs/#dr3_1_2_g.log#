@@ -1,0 +1,811 @@
+Reading input table...
+Found 747350 CCDs for 1 bands.
+Computing local sidereal time...
+...done.
+Generating WCSs...
+Working on WCS index 190000
+Working on WCS index 410000
+Working on WCS index 530000
+Working on WCS index 670000
+Working on WCS index 720000
+Working on WCS index 40000
+Working on WCS index 110000
+Working on WCS index 140000
+Working on WCS index 370000
+Working on WCS index 210000
+Working on WCS index 660000
+Working on WCS index 710000
+Working on WCS index 10000
+Working on WCS index 30000
+Working on WCS index 100000
+Working on WCS index 350000
+Working on WCS index 520000
+Working on WCS index 540000
+Working on WCS index 570000
+Working on WCS index 130000
+Working on WCS index 200000
+Working on WCS index 300000
+Working on WCS index 360000
+Working on WCS index 440000
+Working on WCS index 510000
+Working on WCS index 610000
+Working on WCS index 0
+Working on WCS index 240000
+Working on WCS index 330000
+Working on WCS index 340000
+Working on WCS index 380000
+Working on WCS index 620000
+Working on WCS index 680000
+Working on WCS index 20000
+Working on WCS index 80000
+Working on WCS index 490000
+Working on WCS index 560000
+Working on WCS index 690000
+Working on WCS index 220000
+Working on WCS index 260000
+Working on WCS index 280000
+Working on WCS index 420000
+Working on WCS index 480000
+Working on WCS index 550000
+Working on WCS index 640000
+Working on WCS index 650000
+Working on WCS index 70000
+Working on WCS index 310000
+Working on WCS index 600000
+Working on WCS index 730000
+Working on WCS index 230000
+Working on WCS index 430000
+Working on WCS index 460000
+Working on WCS index 630000
+Working on WCS index 90000
+Working on WCS index 250000
+Working on WCS index 270000
+Working on WCS index 290000
+Working on WCS index 470000
+Working on WCS index 700000
+Working on WCS index 390000
+Working on WCS index 120000
+Working on WCS index 170000
+Working on WCS index 180000
+Working on WCS index 320000
+Working on WCS index 400000
+Working on WCS index 500000
+Working on WCS index 740000
+Working on WCS index 50000
+Working on WCS index 60000
+Working on WCS index 150000
+Working on WCS index 160000
+Working on WCS index 450000
+Working on WCS index 580000
+Working on WCS index 590000
+Time elapsed:  1535.7002351284027
+Generating maps for 1921 pixels...
+Computing maps for pixel 1151 with 18 inputs
+...finished maps for pixel 1151 in 1.06 s.
+Computing maps for pixel 1254 with 177 inputs
+...finished maps for pixel 1254 in 4.71 s.
+Computing maps for pixel 1558 with 236 inputs
+...finished maps for pixel 1558 in 5.69 s.
+Computing maps for pixel 2061 with 676 inputs
+...finished maps for pixel 2061 in 57.27 s.
+Computing maps for pixel 2066 with 746 inputs
+...finished maps for pixel 2066 in 69.39 s.
+Computing maps for pixel 2075 with 497 inputs
+...finished maps for pixel 2075 in 20.57 s.
+Computing maps for pixel 2077 with 404 inputs
+...finished maps for pixel 2077 in 20.11 s.
+Computing maps for pixel 2080 with 425 inputs
+...finished maps for pixel 2080 in 15.91 s.
+Computing maps for pixel 2083 with 358 inputs
+...finished maps for pixel 2083 in 15.90 s.
+Computing maps for pixel 2086 with 476 inputs
+...finished maps for pixel 2086 in 18.88 s.
+Computing maps for pixel 2089 with 326 inputs
+...finished maps for pixel 2089 in 11.92 s.
+Computing maps for pixel 2091 with 362 inputs
+...finished maps for pixel 2091 in 14.35 s.
+Computing maps for pixel 2094 with 320 inputs
+...finished maps for pixel 2094 in 10.20 s.
+Computing maps for pixel 2099 with 116 inputs
+...finished maps for pixel 2099 in 1.90 s.
+Computing maps for pixel 2100 with 1568 inputs
+...finished maps for pixel 2100 in 328.26 s.
+Computing maps for pixel 2316 with 68 inputs
+...finished maps for pixel 2316 in 1.14 s.
+Computing maps for pixel 2319 with 101 inputs
+...finished maps for pixel 2319 in 1.65 s.
+Computing maps for pixel 2336 with 1099 inputs
+...finished maps for pixel 2336 in 156.15 s.
+Computing maps for pixel 6159 with 816 inputs
+...finished maps for pixel 6159 in 87.50 s.
+Computing maps for pixel 6167 with 667 inputs
+...finished maps for pixel 6167 in 75.49 s.
+Computing maps for pixel 6174 with 666 inputs
+...finished maps for pixel 6174 in 60.51 s.
+Computing maps for pixel 6179 with 1042 inputs
+...finished maps for pixel 6179 in 129.79 s.
+Computing maps for pixel 6194 with 2647 inputs
+...finished maps for pixel 6194 in 770.97 s.
+Computing maps for pixel 6278 with 456 inputs
+...finished maps for pixel 6278 in 15.02 s.
+Computing maps for pixel 6281 with 276 inputs
+...finished maps for pixel 6281 in 6.44 s.
+Computing maps for pixel 6283 with 14 inputs
+...finished maps for pixel 6283 in 0.56 s.
+Computing maps for pixel 6284 with 6 inputs
+...finished maps for pixel 6284 in 0.44 s.
+Computing maps for pixel 6288 with 24 inputs
+...finished maps for pixel 6288 in 0.65 s.
+Computing maps for pixel 6293 with 343 inputs
+...finished maps for pixel 6293 in 7.09 s.
+Computing maps for pixel 6337 with 335 inputs
+...finished maps for pixel 6337 in 10.29 s.
+Computing maps for pixel 6340 with 177 inputs
+...finished maps for pixel 6340 in 3.73 s.
+Computing maps for pixel 6342 with 301 inputs
+...finished maps for pixel 6342 in 9.62 s.
+Computing maps for pixel 6343 with 273 inputs
+...finished maps for pixel 6343 in 8.47 s.
+Computing maps for pixel 6350 with 26 inputs
+...finished maps for pixel 6350 in 0.73 s.
+Computing maps for pixel 6351 with 266 inputs
+...finished maps for pixel 6351 in 13.25 s.
+Computing maps for pixel 6355 with 273 inputs
+...finished maps for pixel 6355 in 7.17 s.
+Computing maps for pixel 6358 with 395 inputs
+...finished maps for pixel 6358 in 15.94 s.
+Computing maps for pixel 6362 with 413 inputs
+...finished maps for pixel 6362 in 15.20 s.
+Computing maps for pixel 6373 with 46 inputs
+...finished maps for pixel 6373 in 0.82 s.
+Computing maps for pixel 6384 with 299 inputs
+...finished maps for pixel 6384 in 8.75 s.
+Computing maps for pixel 6385 with 384 inputs
+...finished maps for pixel 6385 in 13.96 s.
+Computing maps for pixel 6396 with 800 inputs
+...finished maps for pixel 6396 in 77.76 s.
+Computing maps for pixel 6409 with 782 inputs
+...finished maps for pixel 6409 in 85.77 s.
+Computing maps for pixel 6413 with 1229 inputs
+...finished maps for pixel 6413 in 177.87 s.
+Computing maps for pixel 6426 with 1254 inputs
+...finished maps for pixel 6426 in 205.06 s.
+Computing maps for pixel 6434 with 359 inputs
+...finished maps for pixel 6434 in 13.32 s.
+Computing maps for pixel 6435 with 395 inputs
+...finished maps for pixel 6435 in 14.91 s.
+Computing maps for pixel 6437 with 413 inputs
+...finished maps for pixel 6437 in 16.53 s.
+Computing maps for pixel 6439 with 1017 inputs
+...finished maps for pixel 6439 in 192.80 s.
+Computing maps for pixel 6456 with 686 inputs
+...finished maps for pixel 6456 in 33.67 s.
+Computing maps for pixel 6459 with 801 inputs
+...finished maps for pixel 6459 in 40.99 s.
+Computing maps for pixel 6463 with 2566 inputs
+...finished maps for pixel 6463 in 822.70 s.
+Computing maps for pixel 6565 with 770 inputs
+...finished maps for pixel 6565 in 71.10 s.
+Computing maps for pixel 6574 with 926 inputs
+...finished maps for pixel 6574 in 125.78 s.
+Computing maps for pixel 6585 with 755 inputs
+...finished maps for pixel 6585 in 78.44 s.
+Computing maps for pixel 6610 with 377 inputs
+...finished maps for pixel 6610 in 16.36 s.
+Computing maps for pixel 6617 with 286 inputs
+...finished maps for pixel 6617 in 8.28 s.
+Computing maps for pixel 6623 with 633 inputs
+...finished maps for pixel 6623 in 54.60 s.
+Computing maps for pixel 6651 with 494 inputs
+...finished maps for pixel 6651 in 26.71 s.
+Computing maps for pixel 6925 with 398 inputs
+...finished maps for pixel 6925 in 16.32 s.
+Computing maps for pixel 6934 with 1638 inputs
+...finished maps for pixel 6934 in 368.66 s.
+Computing maps for pixel 6987 with 911 inputs
+...finished maps for pixel 6987 in 116.99 s.
+Computing maps for pixel 7023 with 467 inputs
+...finished maps for pixel 7023 in 20.04 s.
+Computing maps for pixel 7029 with 378 inputs
+...finished maps for pixel 7029 in 15.14 s.
+Computing maps for pixel 7035 with 385 inputs
+...finished maps for pixel 7035 in 14.93 s.
+Computing maps for pixel 7061 with 38 inputs
+...finished maps for pixel 7061 in 0.82 s.
+Computing maps for pixel 7103 with 26 inputs
+...finished maps for pixel 7103 in 0.67 s.
+Computing maps for pixel 7104 with 270 inputs
+...finished maps for pixel 7104 in 8.26 s.
+Computing maps for pixel 7110 with 384 inputs
+...finished maps for pixel 7110 in 20.83 s.
+Computing maps for pixel 7126 with 298 inputs
+...finished maps for pixel 7126 in 8.03 s.
+Computing maps for pixel 7132 with 44 inputs
+...finished maps for pixel 7132 in 0.77 s.
+Computing maps for pixel 7140 with 36 inputs
+...finished maps for pixel 7140 in 0.68 s.
+Computing maps for pixel 7143 with 32 inputs
+...finished maps for pixel 7143 in 0.64 s.
+Computing maps for pixel 7144 with 28 inputs
+...finished maps for pixel 7144 in 0.64 s.
+Computing maps for pixel 7145 with 124 inputs
+...finished maps for pixel 7145 in 2.31 s.
+Computing maps for pixel 7152 with 35 inputs
+...finished maps for pixel 7152 in 0.69 s.
+Computing maps for pixel 7330 with 333 inputs
+...finished maps for pixel 7330 in 11.47 s.
+Computing maps for pixel 7341 with 399 inputs
+...finished maps for pixel 7341 in 15.05 s.
+Computing maps for pixel 7347 with 67 inputs
+...finished maps for pixel 7347 in 1.19 s.
+Computing maps for pixel 7351 with 92 inputs
+...finished maps for pixel 7351 in 1.58 s.
+Computing maps for pixel 7354 with 328 inputs
+...finished maps for pixel 7354 in 11.89 s.
+Computing maps for pixel 7398 with 54 inputs
+...finished maps for pixel 7398 in 1.07 s.
+Computing maps for pixel 7400 with 472 inputs
+...finished maps for pixel 7400 in 20.14 s.
+Computing maps for pixel 7686 with 300 inputs
+...finished maps for pixel 7686 in 8.72 s.
+Computing maps for pixel 7689 with 370 inputs
+...finished maps for pixel 7689 in 18.38 s.
+Computing maps for pixel 7702 with 292 inputs
+...finished maps for pixel 7702 in 8.72 s.
+Computing maps for pixel 7716 with 362 inputs
+...finished maps for pixel 7716 in 14.24 s.
+Computing maps for pixel 7731 with 195 inputs
+...finished maps for pixel 7731 in 5.02 s.
+Computing maps for pixel 7738 with 259 inputs
+...finished maps for pixel 7738 in 6.13 s.
+Computing maps for pixel 7746 with 245 inputs
+...finished maps for pixel 7746 in 7.59 s.
+Computing maps for pixel 7781 with 27 inputs
+...finished maps for pixel 7781 in 0.90 s.
+Computing maps for pixel 7783 with 163 inputsComputing maps for pixel 1252 with 23 inputs
+...finished maps for pixel 1252 in 1.28 s.
+Computing maps for pixel 1255 with 33 inputs
+...finished maps for pixel 1255 in 0.82 s.
+Computing maps for pixel 1300 with 26 inputs
+...finished maps for pixel 1300 in 0.80 s.
+Computing maps for pixel 1307 with 22 inputs
+...finished maps for pixel 1307 in 0.71 s.
+Computing maps for pixel 1316 with 24 inputs
+...finished maps for pixel 1316 in 0.63 s.
+Computing maps for pixel 1322 with 113 inputs
+...finished maps for pixel 1322 in 2.41 s.
+Computing maps for pixel 1574 with 120 inputs
+...finished maps for pixel 1574 in 2.32 s.
+Computing maps for pixel 2058 with 400 inputs
+...finished maps for pixel 2058 in 14.61 s.
+Computing maps for pixel 2062 with 1311 inputs
+...finished maps for pixel 2062 in 244.45 s.
+Computing maps for pixel 2101 with 347 inputs
+...finished maps for pixel 2101 in 11.54 s.
+Computing maps for pixel 2112 with 763 inputs
+...finished maps for pixel 2112 in 85.81 s.
+Computing maps for pixel 2139 with 1886 inputs
+...finished maps for pixel 2139 in 447.62 s.
+Computing maps for pixel 6164 with 693 inputs
+...finished maps for pixel 6164 in 97.91 s.
+Computing maps for pixel 6172 with 706 inputs
+...finished maps for pixel 6172 in 70.34 s.
+Computing maps for pixel 6180 with 798 inputs
+...finished maps for pixel 6180 in 77.06 s.
+Computing maps for pixel 6190 with 1057 inputs
+...finished maps for pixel 6190 in 139.26 s.
+Computing maps for pixel 6197 with 553 inputs
+...finished maps for pixel 6197 in 39.41 s.
+Computing maps for pixel 6199 with 428 inputs
+...finished maps for pixel 6199 in 18.24 s.
+Computing maps for pixel 6202 with 1079 inputs
+...finished maps for pixel 6202 in 101.24 s.
+Computing maps for pixel 6210 with 1363 inputs
+...finished maps for pixel 6210 in 243.95 s.
+Computing maps for pixel 6237 with 362 inputs
+...finished maps for pixel 6237 in 14.03 s.
+Computing maps for pixel 6238 with 1127 inputs
+...finished maps for pixel 6238 in 213.02 s.
+Computing maps for pixel 6270 with 1941 inputs
+...finished maps for pixel 6270 in 472.47 s.
+Computing maps for pixel 6423 with 841 inputs
+...finished maps for pixel 6423 in 95.07 s.
+Computing maps for pixel 6428 with 1351 inputs
+...finished maps for pixel 6428 in 234.91 s.
+Computing maps for pixel 6440 with 360 inputs
+...finished maps for pixel 6440 in 12.72 s.
+Computing maps for pixel 6442 with 1067 inputs
+...finished maps for pixel 6442 in 184.03 s.
+Computing maps for pixel 6458 with 1651 inputs
+...finished maps for pixel 6458 in 319.00 s.
+Computing maps for pixel 6482 with 352 inputs
+...finished maps for pixel 6482 in 14.99 s.
+Computing maps for pixel 6485 with 1446 inputs
+...finished maps for pixel 6485 in 280.75 s.
+Computing maps for pixel 6519 with 990 inputs
+...finished maps for pixel 6519 in 133.39 s.
+Computing maps for pixel 6543 with 599 inputs
+...finished maps for pixel 6543 in 27.21 s.
+Computing maps for pixel 6547 with 639 inputs
+...finished maps for pixel 6547 in 54.12 s.
+Computing maps for pixel 6555 with 329 inputs
+...finished maps for pixel 6555 in 11.86 s.
+Computing maps for pixel 6557 with 478 inputs
+...finished maps for pixel 6557 in 20.01 s.
+Computing maps for pixel 6561 with 673 inputs
+...finished maps for pixel 6561 in 66.72 s.
+Computing maps for pixel 6571 with 820 inputs
+...finished maps for pixel 6571 in 88.24 s.
+Computing maps for pixel 6577 with 484 inputs
+...finished maps for pixel 6577 in 22.63 s.
+Computing maps for pixel 6581 with 451 inputs
+...finished maps for pixel 6581 in 20.27 s.
+Computing maps for pixel 6584 with 632 inputs
+...finished maps for pixel 6584 in 33.14 s.
+Computing maps for pixel 6593 with 532 inputs
+...finished maps for pixel 6593 in 28.23 s.
+Computing maps for pixel 6601 with 363 inputs
+...finished maps for pixel 6601 in 13.70 s.
+Computing maps for pixel 6605 with 420 inputs
+...finished maps for pixel 6605 in 16.58 s.
+Computing maps for pixel 6611 with 384 inputs
+...finished maps for pixel 6611 in 13.94 s.
+Computing maps for pixel 6619 with 348 inputs
+...finished maps for pixel 6619 in 13.03 s.
+Computing maps for pixel 6627 with 442 inputs
+...finished maps for pixel 6627 in 17.29 s.
+Computing maps for pixel 6633 with 466 inputs
+...finished maps for pixel 6633 in 23.69 s.
+Computing maps for pixel 6648 with 518 inputs
+...finished maps for pixel 6648 in 23.43 s.
+Computing maps for pixel 6913 with 1344 inputs
+...finished maps for pixel 6913 in 238.63 s.
+Computing maps for pixel 6965 with 603 inputs
+...finished maps for pixel 6965 in 33.78 s.
+Computing maps for pixel 6973 with 454 inputs
+...finished maps for pixel 6973 in 24.64 s.
+Computing maps for pixel 6979 with 1014 inputs
+...finished maps for pixel 6979 in 137.90 s.
+Computing maps for pixel 6992 with 483 inputs
+...finished maps for pixel 6992 in 22.97 s.
+Computing maps for pixel 6998 with 358 inputs
+...finished maps for pixel 6998 in 14.75 s.
+Computing maps for pixel 7002 with 220 inputs
+...finished maps for pixel 7002 in 5.13 s.
+Computing maps for pixel 7007 with 132 inputs
+...finished maps for pixel 7007 in 5.41 s.
+Computing maps for pixel 7011 with 445 inputs
+...finished maps for pixel 7011 in 15.27 s.
+Computing maps for pixel 7014 with 266 inputs
+...finished maps for pixel 7014 in 6.40 s.
+Computing maps for pixel 7018 with 275 inputs
+...finished maps for pixel 7018 in 7.01 s.
+Computing maps for pixel 7021 with 454 inputs
+...finished maps for pixel 7021 in 18.92 s.
+Computing maps for pixel 7028 with 457 inputs
+...finished maps for pixel 7028 in 20.01 s.
+Computing maps for pixel 7036 with 448 inputs
+...finished maps for pixel 7036 in 16.99 s.
+Computing maps for pixel 7106 with 18 inputs
+...finished maps for pixel 7106 in 0.65 s.
+Computing maps for pixel 7107 with 291 inputs
+...finished maps for pixel 7107 in 14.57 s.
+Computing maps for pixel 7118 with 63 inputs
+...finished maps for pixel 7118 in 1.07 s.
+Computing maps for pixel 7119 with 315 inputs
+...finished maps for pixel 7119 in 9.05 s.
+Computing maps for pixel 7125 with 287 inputs
+...finished maps for pixel 7125 in 8.13 s.
+Computing maps for pixel 7131 with 41 inputs
+...finished maps for pixel 7131 in 0.73 s.
+Computing maps for pixel 7139 with 23 inputs
+...finished maps for pixel 7139 in 0.60 s.
+Computing maps for pixel 7141 with 136 inputs
+...finished maps for pixel 7141 in 2.66 s.
+Computing maps for pixel 7146 with 149 inputs
+...finished maps for pixel 7146 in 2.98 s.
+Computing maps for pixel 7332 with 4 inputs
+...finished maps for pixel 7332 in 0.41 s.
+Computing maps for pixel 7334 with 332 inputs
+...finished maps for pixel 7334 in 10.98 s.
+Computing maps for pixel 7342 with 375 inputs
+...finished maps for pixel 7342 in 13.52 s.
+Computing maps for pixel 7344 with 6 inputs
+...finished maps for pixel 7344 in 0.44 s.
+Computing maps for pixel 7346 with 134 inputs
+...finished maps for pixel 7346 in 2.69 s.
+Computing maps for pixel 7352 with 329 inputs
+...finished maps for pixel 7352 in 11.96 s.
+Computing maps for pixel 7395 with 229 inputs
+...finished maps for pixel 7395 in 6.15 s.
+Computing maps for pixel 7402 with 302 inputs
+...finished maps for pixel 7402 in 8.47 s.
+Computing maps for pixel 7683 with 395 inputs
+...finished maps for pixel 7683 in 20.12 s.
+Computing maps for pixel 7694 with 408 inputs
+...finished maps for pixel 7694 in 18.59 s.
+Computing maps for pixel 7708 with 261 inputs
+...finished maps for pixel 7708 in 7.27 s.
+Computing maps for pixel 7721 with 320 inputs
+...finished maps for pixel 7721 in 10.67 s.
+Computing maps for pixel 7729 with 223 inputs
+...finished maps for pixel 7729 in 5.78 s.
+Computing maps for pixel 7739 with 18 inputs
+...finished maps for pixel 7739 in 0.62 s.
+Computing maps for pixel 7740 with 76 inputs
+...finished maps for pixel 7740 in 1.24 s.
+Computing maps for pixel 7742 with 172 inputs
+...finished maps for pixel 7742 in 3.94 s.
+Computing maps for pixel 7745 with 288 inputs
+...finished maps for pixel 7745 in 9.16 s.
+Computing maps for pixel 7784 with 396 inputs
+...finished maps for pixel 7784 in 15.32 s.
+Computing maps for pixel 7802 with 392 inputs
+...finished maps for pixel 7802 in 21.13 s.
+Computing maps for pixel 7817 with 423 inputs
+...finished maps for pixel 7817 in 17.93 s.
+Computing maps for pixel 7830 with 279 inputsComputing maps for pixel 1241 with 94 inputs
+...finished maps for pixel 1241 in 3.14 s.
+Computing maps for pixel 1308 with 15 inputs
+...finished maps for pixel 1308 in 0.64 s.
+Computing maps for pixel 1319 with 22 inputs
+...finished maps for pixel 1319 in 0.65 s.
+Computing maps for pixel 1323 with 14 inputs
+...finished maps for pixel 1323 in 0.59 s.
+Computing maps for pixel 1328 with 31 inputs
+...finished maps for pixel 1328 in 0.81 s.
+Computing maps for pixel 1559 with 42 inputs
+...finished maps for pixel 1559 in 0.95 s.
+Computing maps for pixel 1576 with 25 inputs
+...finished maps for pixel 1576 in 0.74 s.
+Computing maps for pixel 2048 with 550 inputs
+...finished maps for pixel 2048 in 45.81 s.
+Computing maps for pixel 2063 with 355 inputs
+...finished maps for pixel 2063 in 15.70 s.
+Computing maps for pixel 2067 with 500 inputs
+...finished maps for pixel 2067 in 26.59 s.
+Computing maps for pixel 2070 with 717 inputs
+...finished maps for pixel 2070 in 74.90 s.
+Computing maps for pixel 2078 with 408 inputs
+...finished maps for pixel 2078 in 33.08 s.
+Computing maps for pixel 2084 with 1507 inputs
+...finished maps for pixel 2084 in 366.86 s.
+Computing maps for pixel 2238 with 110 inputs
+...finished maps for pixel 2238 in 2.66 s.
+Computing maps for pixel 2251 with 33 inputs
+...finished maps for pixel 2251 in 0.86 s.
+Computing maps for pixel 2304 with 95 inputs
+...finished maps for pixel 2304 in 1.71 s.
+Computing maps for pixel 2306 with 362 inputs
+...finished maps for pixel 2306 in 12.05 s.
+Computing maps for pixel 2314 with 232 inputs
+...finished maps for pixel 2314 in 5.55 s.
+Computing maps for pixel 2315 with 393 inputs
+...finished maps for pixel 2315 in 19.63 s.
+Computing maps for pixel 2339 with 380 inputs
+...finished maps for pixel 2339 in 15.37 s.
+Computing maps for pixel 2562 with 335 inputs
+...finished maps for pixel 2562 in 14.32 s.
+Computing maps for pixel 2600 with 451 inputs
+...finished maps for pixel 2600 in 21.05 s.
+Computing maps for pixel 6152 with 903 inputs
+...finished maps for pixel 6152 in 119.79 s.
+Computing maps for pixel 6162 with 1154 inputs
+...finished maps for pixel 6162 in 255.10 s.
+Computing maps for pixel 6189 with 1220 inputs
+...finished maps for pixel 6189 in 235.63 s.
+Computing maps for pixel 6206 with 88 inputs
+...finished maps for pixel 6206 in 1.49 s.
+Computing maps for pixel 6207 with 1100 inputs
+...finished maps for pixel 6207 in 199.41 s.
+Computing maps for pixel 6215 with 564 inputs
+...finished maps for pixel 6215 in 32.42 s.
+Computing maps for pixel 6219 with 342 inputs
+...finished maps for pixel 6219 in 14.44 s.
+Computing maps for pixel 6222 with 420 inputs
+...finished maps for pixel 6222 in 20.04 s.
+Computing maps for pixel 6227 with 328 inputs
+...finished maps for pixel 6227 in 14.07 s.
+Computing maps for pixel 6231 with 564 inputs
+...finished maps for pixel 6231 in 68.75 s.
+Computing maps for pixel 6241 with 679 inputs
+...finished maps for pixel 6241 in 89.70 s.
+Computing maps for pixel 6253 with 315 inputs
+...finished maps for pixel 6253 in 11.28 s.
+Computing maps for pixel 6255 with 407 inputs
+...finished maps for pixel 6255 in 19.15 s.
+Computing maps for pixel 6258 with 498 inputs
+...finished maps for pixel 6258 in 28.70 s.
+Computing maps for pixel 6260 with 722 inputs
+...finished maps for pixel 6260 in 103.96 s.
+Computing maps for pixel 6277 with 406 inputs
+...finished maps for pixel 6277 in 15.31 s.
+Computing maps for pixel 6279 with 14 inputs
+...finished maps for pixel 6279 in 0.60 s.
+Computing maps for pixel 6280 with 525 inputs
+...finished maps for pixel 6280 in 29.83 s.
+Computing maps for pixel 6341 with 334 inputs
+...finished maps for pixel 6341 in 16.70 s.
+Computing maps for pixel 6349 with 300 inputs
+...finished maps for pixel 6349 in 12.94 s.
+Computing maps for pixel 6354 with 306 inputs
+...finished maps for pixel 6354 in 11.79 s.
+Computing maps for pixel 6359 with 456 inputs
+...finished maps for pixel 6359 in 25.18 s.
+Computing maps for pixel 6367 with 404 inputs
+...finished maps for pixel 6367 in 24.41 s.
+Computing maps for pixel 6392 with 4 inputs
+Computing maps for pixel 6393 with 67 inputs
+...finished maps for pixel 6393 in 1.28 s.
+Computing maps for pixel 6394 with 22 inputs
+...finished maps for pixel 6394 in 0.71 s.
+Computing maps for pixel 6395 with 58 inputs
+...finished maps for pixel 6395 in 1.28 s.
+Computing maps for pixel 6397 with 947 inputs
+...finished maps for pixel 6397 in 152.02 s.
+Computing maps for pixel 6412 with 885 inputs
+...finished maps for pixel 6412 in 146.70 s.
+Computing maps for pixel 6424 with 1555 inputs
+...finished maps for pixel 6424 in 474.59 s.
+Computing maps for pixel 6454 with 1651 inputs
+...finished maps for pixel 6454 in 493.16 s.
+Computing maps for pixel 6498 with 1393 inputs
+...finished maps for pixel 6498 in 321.26 s.
+Computing maps for pixel 6548 with 944 inputs
+...finished maps for pixel 6548 in 137.94 s.
+Computing maps for pixel 6569 with 788 inputs
+...finished maps for pixel 6569 in 97.74 s.
+Computing maps for pixel 6576 with 710 inputs
+...finished maps for pixel 6576 in 73.40 s.
+Computing maps for pixel 6590 with 423 inputs
+...finished maps for pixel 6590 in 19.01 s.
+Computing maps for pixel 6597 with 992 inputs
+...finished maps for pixel 6597 in 165.95 s.
+Computing maps for pixel 6935 with 1503 inputs
+...finished maps for pixel 6935 in 373.39 s.
+Computing maps for pixel 6988 with 406 inputs
+...finished maps for pixel 6988 in 19.51 s.
+Computing maps for pixel 6989 with 276 inputs
+...finished maps for pixel 6989 in 9.73 s.
+Computing maps for pixel 6991 with 425 inputs
+...finished maps for pixel 6991 in 25.28 s.
+Computing maps for pixel 6999 with 310 inputs
+...finished maps for pixel 6999 in 10.73 s.
+Computing maps for pixel 7000 with 164 inputs
+...finished maps for pixel 7000 in 3.65 s.
+Computing maps for pixel 7003 with 550 inputs
+...finished maps for pixel 7003 in 24.46 s.
+Computing maps for pixel 7013 with 401 inputs
+...finished maps for pixel 7013 in 15.58 s.
+Computing maps for pixel 7022 with 462 inputs
+...finished maps for pixel 7022 in 21.76 s.
+Computing maps for pixel 7030 with 470 inputs
+...finished maps for pixel 7030 in 23.06 s.
+Computing maps for pixel 7038 with 383 inputs
+...finished maps for pixel 7038 in 17.87 s.
+Computing maps for pixel 7113 with 103 inputs
+...finished maps for pixel 7113 in 2.26 s.
+Computing maps for pixel 7117 with 381 inputs
+...finished maps for pixel 7117 in 16.07 s.
+Computing maps for pixel 7127 with 26 inputs
+...finished maps for pixel 7127 in 0.62 s.
+Computing maps for pixel 7128 with 360 inputs
+...finished maps for pixel 7128 in 17.21 s.
+Computing maps for pixel 7338 with 476 inputs
+...finished maps for pixel 7338 in 27.61 s.
+Computing maps for pixel 7357 with 410 inputs
+...finished maps for pixel 7357 in 20.32 s.
+Computing maps for pixel 7407 with 402 inputs
+...finished maps for pixel 7407 in 19.62 s.
+Computing maps for pixel 7690 with 219 inputs
+...finished maps for pixel 7690 in 10.25 s.
+Computing maps for pixel 7697 with 343 inputs
+...finished maps for pixel 7697 in 15.46 s.
+Computing maps for pixel 7714 with 323 inputs
+...finished maps for pixel 7714 in 12.17 s.
+Computing maps for pixel 7728 with 411 inputs
+...finished maps for pixel 7728 in 17.23 s.
+Computing maps for pixel 7754 with 4 inputs
+...finished maps for pixel 7754 in 0.48 s.
+Computing maps for pixel 7776 with 44 inputs
+...finished maps for pixel 7776 in 1.00 s.
+Computing maps for pixel 7779 with 418 inputs
+...finished maps for pixel 7779 in 16.82 s.
+Computing maps for pixel 7791 with 469 inputs
+...finished maps for pixel 7791 in 22.77 s.
+Computing maps for pixel 7815 with 62 inputs
+...finished maps for pixel 7815 in 1.16 s.
+Computing maps for pixel 7816 with 370 inputs
+...finished maps for pixel 7816 in 18.99 s.
+Computing maps for pixel 7832 with 663 inputs
+...finished maps for pixel 7832 in 82.28 s.
+Computing maps for pixel 7852 with 1105 inputs
+...finished maps for pixel 7852 in 233.41 s.
+Computing maps for pixel 7872 with 463 inputs
+...finished maps for pixel 7872 in 20.25 s.
+Computing maps for pixel 7881 with 475 inputs
+...finished maps for pixel 7881 in 21.71 s.
+Computing maps for pixel 7888 with 432 inputs
+...finished maps for pixel 7888 in 25.18 s.Computing maps for pixel 1239 with 36 inputs
+...finished maps for pixel 1239 in 1.91 s.
+Computing maps for pixel 1260 with 35 inputs
+...finished maps for pixel 1260 in 0.90 s.
+Computing maps for pixel 1306 with 143 inputs
+...finished maps for pixel 1306 in 3.52 s.
+Computing maps for pixel 1563 with 29 inputs
+...finished maps for pixel 1563 in 0.77 s.
+Computing maps for pixel 1580 with 15 inputs
+...finished maps for pixel 1580 in 0.63 s.
+Computing maps for pixel 2052 with 804 inputs
+...finished maps for pixel 2052 in 99.81 s.
+Computing maps for pixel 2073 with 711 inputs
+...finished maps for pixel 2073 in 75.26 s.
+Computing maps for pixel 2082 with 653 inputs
+...finished maps for pixel 2082 in 62.39 s.
+Computing maps for pixel 2092 with 231 inputs
+...finished maps for pixel 2092 in 20.25 s.
+Computing maps for pixel 2098 with 299 inputs
+...finished maps for pixel 2098 in 9.94 s.
+Computing maps for pixel 2102 with 344 inputs
+...finished maps for pixel 2102 in 10.79 s.
+Computing maps for pixel 2115 with 1065 inputs
+...finished maps for pixel 2115 in 177.59 s.
+Computing maps for pixel 2178 with 501 inputs
+...finished maps for pixel 2178 in 25.44 s.
+Computing maps for pixel 2181 with 132 inputs
+...finished maps for pixel 2181 in 2.90 s.
+Computing maps for pixel 2183 with 254 inputs
+...finished maps for pixel 2183 in 11.35 s.
+Computing maps for pixel 2188 with 370 inputs
+...finished maps for pixel 2188 in 15.52 s.
+Computing maps for pixel 2194 with 15 inputs
+...finished maps for pixel 2194 in 0.62 s.
+Computing maps for pixel 2200 with 31 inputs
+...finished maps for pixel 2200 in 0.83 s.
+Computing maps for pixel 2205 with 31 inputs
+...finished maps for pixel 2205 in 0.75 s.
+Computing maps for pixel 2207 with 365 inputs
+...finished maps for pixel 2207 in 12.76 s.
+Computing maps for pixel 2210 with 440 inputs
+...finished maps for pixel 2210 in 22.57 s.
+Computing maps for pixel 2218 with 447 inputs
+...finished maps for pixel 2218 in 20.65 s.
+Computing maps for pixel 2310 with 9 inputs
+...finished maps for pixel 2310 in 0.57 s.
+Computing maps for pixel 2312 with 485 inputs
+...finished maps for pixel 2312 in 22.84 s.
+Computing maps for pixel 2338 with 420 inputs
+...finished maps for pixel 2338 in 17.95 s.
+Computing maps for pixel 2340 with 345 inputs
+...finished maps for pixel 2340 in 16.37 s.
+Computing maps for pixel 2569 with 340 inputs
+...finished maps for pixel 2569 in 14.43 s.
+Computing maps for pixel 6147 with 1131 inputs
+...finished maps for pixel 6147 in 218.74 s.
+Computing maps for pixel 6168 with 890 inputs
+...finished maps for pixel 6168 in 157.49 s.
+Computing maps for pixel 6188 with 1125 inputs
+...finished maps for pixel 6188 in 199.62 s.
+Computing maps for pixel 6198 with 542 inputs
+...finished maps for pixel 6198 in 45.68 s.
+Computing maps for pixel 6205 with 1294 inputs
+...finished maps for pixel 6205 in 287.19 s.
+Computing maps for pixel 6232 with 1060 inputs
+...finished maps for pixel 6232 in 222.86 s.
+Computing maps for pixel 6262 with 594 inputs
+...finished maps for pixel 6262 in 72.93 s.
+Computing maps for pixel 6275 with 670 inputs
+...finished maps for pixel 6275 in 95.52 s.
+Computing maps for pixel 6353 with 347 inputs
+...finished maps for pixel 6353 in 17.86 s.
+Computing maps for pixel 6360 with 313 inputs
+...finished maps for pixel 6360 in 12.91 s.
+Computing maps for pixel 6363 with 430 inputs
+...finished maps for pixel 6363 in 23.49 s.
+Computing maps for pixel 6386 with 29 inputs
+...finished maps for pixel 6386 in 0.78 s.
+Computing maps for pixel 6388 with 432 inputs
+...finished maps for pixel 6388 in 23.14 s.
+Computing maps for pixel 6398 with 233 inputs
+...finished maps for pixel 6398 in 4.23 s.
+Computing maps for pixel 6400 with 443 inputs
+...finished maps for pixel 6400 in 23.86 s.
+Computing maps for pixel 6406 with 1759 inputs
+...finished maps for pixel 6406 in 583.46 s.
+Computing maps for pixel 6441 with 286 inputs
+...finished maps for pixel 6441 in 9.39 s.
+Computing maps for pixel 6443 with 902 inputs
+...finished maps for pixel 6443 in 148.64 s.
+Computing maps for pixel 6455 with 1705 inputs
+...finished maps for pixel 6455 in 412.81 s.
+Computing maps for pixel 6487 with 361 inputs
+...finished maps for pixel 6487 in 13.64 s.
+Computing maps for pixel 6489 with 516 inputs
+...finished maps for pixel 6489 in 26.36 s.
+Computing maps for pixel 6492 with 1302 inputs
+...finished maps for pixel 6492 in 219.14 s.
+Computing maps for pixel 6520 with 690 inputs
+...finished maps for pixel 6520 in 35.14 s.
+Computing maps for pixel 6530 with 395 inputs
+...finished maps for pixel 6530 in 15.00 s.
+Computing maps for pixel 6533 with 1113 inputs
+...finished maps for pixel 6533 in 175.94 s.
+Computing maps for pixel 6563 with 1070 inputs
+...finished maps for pixel 6563 in 161.88 s.
+Computing maps for pixel 6579 with 777 inputs
+...finished maps for pixel 6579 in 84.84 s.
+Computing maps for pixel 6600 with 461 inputs
+...finished maps for pixel 6600 in 23.46 s.
+Computing maps for pixel 6606 with 366 inputs
+...finished maps for pixel 6606 in 14.50 s.
+Computing maps for pixel 6613 with 301 inputs
+...finished maps for pixel 6613 in 11.31 s.
+Computing maps for pixel 6618 with 452 inputs
+...finished maps for pixel 6618 in 21.92 s.
+Computing maps for pixel 6630 with 348 inputs
+...finished maps for pixel 6630 in 12.73 s.
+Computing maps for pixel 6637 with 382 inputs
+...finished maps for pixel 6637 in 16.05 s.
+Computing maps for pixel 6647 with 453 inputs
+...finished maps for pixel 6647 in 20.33 s.
+Computing maps for pixel 6655 with 438 inputs
+...finished maps for pixel 6655 in 21.28 s.
+Computing maps for pixel 6929 with 2108 inputs
+...finished maps for pixel 6929 in 646.34 s.
+Computing maps for pixel 7416 with 159 inputs
+...finished maps for pixel 7416 in 7.69 s.
+Computing maps for pixel 7685 with 278 inputs
+...finished maps for pixel 7685 in 7.82 s.
+Computing maps for pixel 7688 with 466 inputs
+...finished maps for pixel 7688 in 21.25 s.
+Computing maps for pixel 7703 with 183 inputs
+...finished maps for pixel 7703 in 4.20 s.
+Computing maps for pixel 7709 with 148 inputs
+...finished maps for pixel 7709 in 3.05 s.
+Computing maps for pixel 7713 with 283 inputs
+...finished maps for pixel 7713 in 7.54 s.
+Computing maps for pixel 7727 with 463 inputs
+...finished maps for pixel 7727 in 21.60 s.
+Computing maps for pixel 7750 with 65 inputs
+...finished maps for pixel 7750 in 1.28 s.
+Computing maps for pixel 7777 with 116 inputs
+...finished maps for pixel 7777 in 2.05 s.
+Computing maps for pixel 7780 with 410 inputs
+...finished maps for pixel 7780 in 17.63 s.
+Computing maps for pixel 7800 with 199 inputs
+...finished maps for pixel 7800 in 4.76 s.
+Computing maps for pixel 7804 with 26 inputs
+...finished maps for pixel 7804 in 0.68 s.
+Computing maps for pixel 7805 with 44 inputs
+...finished maps for pixel 7805 in 0.87 s.
+Computing maps for pixel 7806 with 157 inputs
+...finished maps for pixel 7806 in 10.88 s.
+Computing maps for pixel 7813 with 151 inputs
+...finished maps for pixel 7813 in 2.74 s.
+Computing maps for pixel 7814 with 283 inputs
+...finished maps for pixel 7814 in 8.25 s.
+Computing maps for pixel 7821 with 253 inputs
+...finished maps for pixel 7821 in 6.32 s.
+Computing maps for pixel 7825 with 40 inputs
+...finished maps for pixel 7825 in 0.79 s.
+Computing maps for pixel 7826 with 114 inputs
+...finished maps for pixel 7826 in 2.02 s.
+Computing maps for pixel 7827 with 163 inputs
+...finished maps for pixel 7827 in 3.10 s.
+Computing maps for pixel 7831 with 330 inputs
+...finished maps for pixel 7831 in 12.73 s.
+Computing maps for pixel 7839 with 965 inputs
+...finished maps for pixel 7839 in 120.08 s.
+Computing maps for pixel 7855 with 824 inputs
+...finished maps for pixel 7855 in 87.73 s.
+Computing maps for pixel 7864 with 884 inputs
+...finished maps for pixel 7864 in 101.20 s.
+Computing maps for pixel 7876 with 307 inputs
+...finished maps for pixel 7876 in 9.71 s.
+Computing maps for pixel 7879 with 514 inputs
+...finished maps for pixel 7879 in 22.44 s.
+Computing maps for pixel 7886 with 599 inputs
+...finished maps for pixel 7886 in 51.49 s.
+Computing maps for pixel 7892 with 362 inputs
+...finished maps for pixel 7892 in 14.18 s.
+Computing maps for pixel 7898 with 364 inputs

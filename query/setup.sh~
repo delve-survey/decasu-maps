@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+export CVMFS=/cvmfs/des.opensciencegrid.org
+source $CVMFS/fnal/anaconda2/etc/profile.d/conda.sh
+
+# Python 2
+#conda activate des18a
+
+# Python 3
+conda activate des20a

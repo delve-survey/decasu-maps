@@ -1,0 +1,16 @@
+outbase: 'delve_dr3_1_1'
+nside: 16384
+nside_run: 32
+map_types:
+  coverage: ['sum']
+  nexp: ['sum']
+  exptime: ['sum']
+  airmass: ['wmean']
+  dcr_dra: ['wmean']
+  dcr_ddec: ['wmean']
+  dcr_e1: ['wmean']
+  dcr_e2: ['wmean']
+  maglim: ['wmean']
+  skysigma: ['wmean', 'wmean-scaled']
+  skybrite: ['wmean', 'wmean-scaled']
+  fwhm: ['wmean']
