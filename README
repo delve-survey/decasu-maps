@@ -1,3 +1,28 @@
+# Instructions as of ~Nov 2023 (by Lucas Secco):
+
+You can find Peter/Kai's initial commit and scripts below. The details in this first part are more specific to Midway users and include updated tags for DR3_1_1 and DR3_1_2 in the relevant queries.
+
+What you usually want to do is:
+
+1- query image properties using query/dr3_1_1_Nov2023.sql and query/dr3_1_2_Nov2023.sql using:
+
+`easyaccess -s delve -l query/dr3_1_1(2)_Nov2023.sql`
+
+2- this will create a number of .csv files which you want to concatenate and transform into fits format, you can use code/combine_csv.py and code/csv2fits.py for that
+
+3- get also the tiles and geometry by using:
+
+`easyaccess -s delve -l coadd_tiles_and_geom.sql`
+
+4- run the decasu wrapper as Peter instructs below.
+
+Results for all of this are in Midway3:
+`/project/chihway/secco/decasu_outputs` (you need permission to access the `chihway` group_
+
+
+
+Peter's initial commit below:
+-------------------------------------------------------------------------------
 # This code was developed by Peter Ferguson, I added updates along the way to have it follow DELVE region boundaries 
 #first activate environment
 
